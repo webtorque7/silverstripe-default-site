@@ -1,0 +1,20 @@
+// ---------------------------------------------------------------------------
+// Imports
+@import "includes/settings";
+
+/* -------------------------------------------------------------------------*/
+/* Form */
+
+$primary-color: #888;
+$secondary-color: #f07e22;
+$text-color: #333;
+$input-color: #eee;
+$placeholder-color: #999;
+
+form {
+	@import "includes/_FormInline";
+}
+
+form.checkout {
+	@import "includes/_FormBlock";
+}

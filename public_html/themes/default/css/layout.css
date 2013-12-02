@@ -1,0 +1,641 @@
+/* line 58, social/*.png */
+.social-sprite, .social-facebook, .social-twitter, .social-youtube {
+  background: url('../images/social-s342cc75911.png') no-repeat;
+}
+
+/* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-facebook {
+  background-position: 0 -32px;
+}
+
+/* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-twitter {
+  background-position: 0 -64px;
+}
+
+/* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-youtube {
+  background-position: 0 0;
+}
+
+/* Grids */
+/* $gutter-width */
+/* Main Colours */
+/* Fonts */
+/* -------------------------------------------------------------------------*/
+/* Layout */
+/* line 9, ../scss/layout.scss */
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 14, ../scss/layout.scss */
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* line 22, ../scss/layout.scss */
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* line 29, ../scss/layout.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+}
+
+/* line 36, ../scss/layout.scss */
+ul li,
+ol li {
+  line-height: 24px;
+}
+
+/* line 40, ../scss/layout.scss */
+a {
+  text-decoration: none;
+  color: #333333;
+  display: inline-block;
+}
+/* line 45, ../scss/layout.scss */
+a:hover {
+  color: #666666;
+}
+/* line 49, ../scss/layout.scss */
+a:active {
+  color: #333333;
+}
+
+/* line 54, ../scss/layout.scss */
+.content {
+  *zoom: 1;
+  *zoom: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box;
+  max-width: 940px;
+}
+/* line 38, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 38, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 60, ../scss/layout.scss */
+.content article {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -20px;
+  display: inline;
+}
+/* line 63, ../scss/layout.scss */
+.content article.sidenav-page {
+  width: 74.46809%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+}
+/* line 68, ../scss/layout.scss */
+.content aside.sidebar {
+  width: 23.40426%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -20px;
+  display: inline;
+}
+
+/* line 1, ../scss/includes/_header.scss */
+header {
+  *zoom: 1;
+  width: 100%;
+}
+/* line 38, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 5, ../scss/includes/_header.scss */
+header .logo {
+  width: 31.91489%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -20px;
+  display: inline;
+  float: none;
+  display: inline-block;
+}
+/* line 10, ../scss/includes/_header.scss */
+header .logo h1 a {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('../images/logo.png?1375068605');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 300px;
+  height: 29px;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+}
+/* line 18, ../scss/includes/_header.scss */
+header nav {
+  margin: 10px 0;
+  clear: both;
+}
+/* line 22, ../scss/includes/_header.scss */
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 27, ../scss/includes/_header.scss */
+header nav li {
+  display: inline-block;
+  list-style: none;
+  border-right: 1px solid #333333;
+}
+/* line 32, ../scss/includes/_header.scss */
+header nav li:last-child {
+  border: none;
+}
+/* line 37, ../scss/includes/_header.scss */
+header nav a {
+  padding: 0 20px;
+}
+/* line 41, ../scss/includes/_header.scss */
+header nav .has-dropdown {
+  position: relative;
+}
+/* line 45, ../scss/includes/_header.scss */
+header nav .dropdown {
+  display: none;
+  position: absolute;
+  top: 34px;
+  z-index: 10;
+}
+/* line 51, ../scss/includes/_header.scss */
+header nav .dropdown li {
+  border: 0;
+  background-color: #888888;
+}
+/* line 56, ../scss/includes/_header.scss */
+header nav .dropdown a {
+  padding: 5px 20px;
+}
+
+/* Home Slideshow */
+/* line 2, ../scss/includes/_HeroSlider.scss */
+.slideshow {
+  clear: both;
+  float: none;
+  width: 100%;
+  background-color: #888888;
+}
+
+/* line 9, ../scss/includes/_HeroSlider.scss */
+.slide-item {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 16, ../scss/includes/_HeroSlider.scss */
+.cycle-slideshow,
+.cycle-slideshow * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* slideshow images (for most of the demos, these are the actual "slides") */
+/* line 23, ../scss/includes/_HeroSlider.scss */
+.slide-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  display: block;
+}
+
+/* in case script does not load */
+/* line 33, ../scss/includes/_HeroSlider.scss */
+.cycle-slideshow img:first-child {
+  position: static;
+  z-index: 100;
+}
+
+/* pager */
+/* line 39, ../scss/includes/_HeroSlider.scss */
+.cycle-pager {
+  text-align: center;
+  width: 100%;
+  z-index: 500;
+  position: absolute;
+  bottom: 10px;
+  overflow: hidden;
+}
+
+/* line 48, ../scss/includes/_HeroSlider.scss */
+.cycle-pager span {
+  font-size: 50px;
+  display: inline-block;
+  color: #ddd;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+/* line 56, ../scss/includes/_HeroSlider.scss */
+.cycle-pager span.cycle-pager-active {
+  color: #D69746;
+}
+
+/* line 60, ../scss/includes/_HeroSlider.scss */
+.cycle-pager > * {
+  cursor: pointer;
+}
+
+/* Generic page Hero */
+/* line 66, ../scss/includes/_HeroSlider.scss */
+.hero-wrapper div {
+  background: url(../images/hero-img.jpg) no-repeat center top #888888;
+  width: 100%;
+  height: 210px;
+}
+
+/***************** SIDEBAR & PROMO-BOXES *****************/
+/* line 3, ../scss/includes/_promoboxes.scss */
+.promo-boxes-1,
+.promo-boxes-2 {
+  *zoom: 1;
+  padding: 0;
+}
+/* line 38, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.promo-boxes-1:after,
+.promo-boxes-2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 7, ../scss/includes/_promoboxes.scss */
+.promo-boxes-1 figure,
+.promo-boxes-2 figure {
+  position: relative;
+  margin: 0;
+}
+/* line 12, ../scss/includes/_promoboxes.scss */
+.promo-boxes-1 img,
+.promo-boxes-2 img {
+  width: 100%;
+  height: auto;
+}
+/* line 17, ../scss/includes/_promoboxes.scss */
+.promo-boxes-1 figcaption,
+.promo-boxes-2 figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #888888;
+}
+
+/* PROMO-BOX HOMEPAGE */
+/* line 27, ../scss/includes/_promoboxes.scss */
+.promo-boxes-1 {
+  margin: 20px 0;
+}
+/* line 30, ../scss/includes/_promoboxes.scss */
+.promo-boxes-1 .promo-box {
+  width: 23.40426%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+  display: inline-block;
+}
+/* line 34, ../scss/includes/_promoboxes.scss */
+.promo-boxes-1 .promo-box:last-child {
+  width: 23.40426%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -20px;
+  display: inline;
+}
+
+/* PROMO-BOX SIDEBAR */
+/* line 42, ../scss/includes/_promoboxes.scss */
+.promo-boxes-2 .promo-box {
+  width: 100%;
+  float: left;
+  margin-right: 9.09091%;
+  display: inline;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* SOCIAL ICONS */
+/* line 50, ../scss/includes/_promoboxes.scss */
+.social-icons li {
+  display: inline-block;
+  list-style: none;
+}
+/* line 54, ../scss/includes/_promoboxes.scss */
+.social-icons li a {
+  width: 32px;
+  height: 32px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 65, ../scss/includes/_promoboxes.scss */
+.facebook {
+  background: url("../images/facebook.png;") no-repeat;
+}
+
+/* line 65, ../scss/includes/_promoboxes.scss */
+.twitter {
+  background: url("../images/twitter.png;") no-repeat;
+}
+
+/* line 65, ../scss/includes/_promoboxes.scss */
+.youtube {
+  background: url("../images/youtube.png;") no-repeat;
+}
+
+/* line 1, ../scss/includes/_footer.scss */
+footer {
+  *zoom: 1;
+  width: 100%;
+  clear: both;
+  background-color: #ffefc4;
+}
+/* line 38, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 7, ../scss/includes/_footer.scss */
+footer .column {
+  width: 23.40426%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+  float: left;
+}
+/* line 11, ../scss/includes/_footer.scss */
+footer .column:nth-child(4) {
+  width: 23.40426%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -20px;
+  display: inline;
+}
+/* line 15, ../scss/includes/_footer.scss */
+footer .column ul {
+  padding: 0;
+}
+/* line 19, ../scss/includes/_footer.scss */
+footer .column li {
+  list-style: none;
+  line-height: 24px;
+}
+/* line 25, ../scss/includes/_footer.scss */
+footer .copyright {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -20px;
+  display: inline;
+  clear: both;
+  font-size: 12px;
+}
+
+/* line 32, ../scss/includes/_footer.scss */
+.copyright-m {
+  display: none;
+}
+
+@media screen {
+  /* line 58, social/*.png */
+  .social-sprite, .social-facebook, .social-twitter, .social-youtube {
+    background: url('../images/social-s342cc75911.png') no-repeat;
+  }
+
+  /* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  .social-facebook {
+    background-position: 0 -32px;
+  }
+
+  /* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  .social-twitter {
+    background-position: 0 -64px;
+  }
+
+  /* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  .social-youtube {
+    background-position: 0 0;
+  }
+
+  /* Grids */
+  /* $gutter-width */
+  /* Main Colours */
+  /* Fonts */
+  /* -------------------------------------------------------------------------*/
+  /* Layout-768 */
+  /* line 58, social/*.png */
+  .social-sprite, .social-facebook, .social-twitter, .social-youtube {
+    background: url('../images/social-s342cc75911.png') no-repeat;
+  }
+
+  /* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  .social-facebook {
+    background-position: 0 -32px;
+  }
+
+  /* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  .social-twitter {
+    background-position: 0 -64px;
+  }
+
+  /* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  .social-youtube {
+    background-position: 0 0;
+  }
+
+  /* Grids */
+  /* $gutter-width */
+  /* Main Colours */
+  /* Fonts */
+  /* -------------------------------------------------------------------------*/
+  /* Layout-320 */
+}
+@media screen and (max-width: 1023px) {
+  /* line 11, ../scss/responsive/_layout-768.scss */
+  .content article {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 12, ../scss/responsive/_layout-768.scss */
+  .content article.sidenav-page {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 19, ../scss/responsive/_layout-768.scss */
+  .content aside.sidebar {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 23, ../scss/responsive/_layout-768.scss */
+  .content .promo-boxes-1 .promo-box {
+    width: 48.93617%;
+    float: left;
+    margin-right: 2.12766%;
+    margin-bottom: 20px;
+  }
+  /* line 27, ../scss/responsive/_layout-768.scss */
+  .content .promo-boxes-1 .promo-box:nth-child(even) {
+    width: 48.93617%;
+    float: right;
+    margin-right: 0;
+  }
+
+  /* PROMO-BOX SIDE-BAR */
+  /* line 35, ../scss/responsive/_layout-768.scss */
+  .promo-boxes-2 .promo-box {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+    display: inline-block;
+  }
+  /* line 39, ../scss/responsive/_layout-768.scss */
+  .promo-boxes-2 .promo-box:last-child {
+    width: 23.40426%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 11, ../scss/responsive/_layout-320.scss */
+  header .logo {
+    width: 82.6087%;
+    float: left;
+    margin-right: 4.34783%;
+  }
+  /* line 14, ../scss/responsive/_layout-320.scss */
+  header .logo h1 a {
+    max-width: 320px;
+  }
+
+  /* line 20, ../scss/responsive/_layout-320.scss */
+  .content {
+    -webkit-background-origin: content;
+    -moz-background-origin: content;
+    -ms-background-origin: content-box;
+    -o-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-clip: content-box;
+  }
+  /* line 23, ../scss/responsive/_layout-320.scss */
+  .content article {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 24, ../scss/responsive/_layout-320.scss */
+  .content article.sidenav-page {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 31, ../scss/responsive/_layout-320.scss */
+  .content aside.sidebar {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+
+  /* PROMO-BOX HOMEPAGE */
+  /* line 37, ../scss/responsive/_layout-320.scss */
+  .promo-boxes-1 {
+    margin: 20px 0;
+  }
+  /* line 40, ../scss/responsive/_layout-320.scss */
+  .promo-boxes-1 .promo-box {
+    width: 47.82609%;
+    float: left;
+    margin-right: 4.34783%;
+  }
+  /* line 43, ../scss/responsive/_layout-320.scss */
+  .promo-boxes-1 .promo-box:nth-child(even) {
+    width: 47.82609%;
+    float: right;
+    margin-right: 0;
+  }
+
+  /* PROMO-BOX SIDE-BAR */
+  /* line 51, ../scss/responsive/_layout-320.scss */
+  .promo-boxes-2 .promo-box {
+    width: 47.82609%;
+    float: left;
+    margin-right: 4.34783%;
+    margin-bottom: 20px;
+  }
+  /* line 55, ../scss/responsive/_layout-320.scss */
+  .promo-boxes-2 .promo-box:nth-child(even) {
+    width: 47.82609%;
+    float: right;
+    margin-right: 0;
+  }
+
+  /* FOOTER */
+  /* line 62, ../scss/responsive/_layout-320.scss */
+  footer {
+    display: none;
+  }
+
+  /* line 66, ../scss/responsive/_layout-320.scss */
+  .copyright-m {
+    display: block;
+    clear: both;
+    font-size: 12px;
+    padding: 20px 0 10px 0;
+  }
+  /* line 72, ../scss/responsive/_layout-320.scss */
+  .copyright-m p {
+    display: inline-block;
+    margin: 0 auto;
+  }
+}

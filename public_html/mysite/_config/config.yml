@@ -1,0 +1,4 @@
+SSViewer:
+  theme: 'default'
+Director:
+  environment_type: 'dev'

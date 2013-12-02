@@ -1,0 +1,78 @@
+// ---------------------------------------------------------------------------
+// Imports
+@import 'includes/settings';
+
+/* -------------------------------------------------------------------------*/
+/* Layout-320 */
+
+@include at-breakpoint(0 767px $mobile-columns) {
+
+	header {
+		.logo {
+			@include span-columns(5, $mobile-columns);
+
+			h1 a {
+				max-width: 320px;
+			}
+		}
+	}
+
+	.content {
+		@include susy-grid-background;
+
+		article {
+			&.sidenav-page {
+				@include span-columns(6 omega, $mobile-columns);
+			}
+
+			@include span-columns(6 omega, $mobile-columns);
+		}
+
+		aside.sidebar {
+			@include span-columns(6 omega, $mobile-columns);
+		}
+	}
+
+	/* PROMO-BOX HOMEPAGE */
+	.promo-boxes-1 {
+		margin: 20px 0;
+
+		.promo-box {
+			@include span-columns(3, $mobile-columns);
+
+			&:nth-child(even) {
+				@include span-columns(3 omega, $mobile-columns);
+			}
+		}
+	}
+
+	/* PROMO-BOX SIDE-BAR */
+	.promo-boxes-2 {
+		.promo-box {
+			@include span-columns(3, $mobile-columns);
+			margin-bottom: $gutter-width;
+
+			&:nth-child(even) {
+				@include span-columns(3 omega, $mobile-columns);
+			}
+		}
+	}
+
+	/* FOOTER */
+	footer {
+		display: none;
+	}
+
+	.copyright-m {
+		display: block;
+		clear: both;
+		font-size: 12px;
+		padding: 20px 0 10px 0;
+
+		p {
+			display: inline-block;
+			margin: 0 auto;
+		}
+	}
+
+}

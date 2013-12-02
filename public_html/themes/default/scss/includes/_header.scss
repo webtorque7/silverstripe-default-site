@@ -1,0 +1,61 @@
+header {
+	@include pie-clearfix;
+	width: 100%;
+
+	.logo {
+		@include span-columns(4 omega, $total-columns);
+		float: none;
+		display: inline-block;
+
+		h1 a {
+			@include replace-text-with-dimensions("logo.png");
+			background-size: 100%;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	nav {
+		margin: 10px 0;
+		clear: both;
+
+		ul {
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			display: inline-block;
+			list-style: none;
+			border-right: 1px solid $text-color;
+
+			&:last-child {
+				border: none;
+			}
+		}
+
+		a {
+			padding: 0 20px;
+		}
+
+		.has-dropdown {
+			position: relative;
+		}
+
+		.dropdown {
+			display: none;
+			position: absolute;
+			top: 34px;
+			z-index: 10;
+
+			li {
+				border: 0;
+				background-color: $primary-color;
+			}
+
+			a {
+				padding: 5px 20px;
+			}
+		}
+	}
+}

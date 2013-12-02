@@ -1,0 +1,194 @@
+/* line 58, social/*.png */
+.social-sprite, .social-facebook, .social-twitter, .social-youtube {
+  background: url('../images/social-s342cc75911.png') no-repeat;
+}
+
+/* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-facebook {
+  background-position: 0 -32px;
+}
+
+/* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-twitter {
+  background-position: 0 -64px;
+}
+
+/* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-youtube {
+  background-position: 0 0;
+}
+
+/* Grids */
+/* $gutter-width */
+/* Main Colours */
+/* Fonts */
+/* -------------------------------------------------------------------------*/
+/* Layout-768 */
+@media (max-width: 1023px) {
+  /* line 11, ../scss/responsive/_layout-768.scss */
+  .content article {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 12, ../scss/responsive/_layout-768.scss */
+  .content article.sidenav-page {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 19, ../scss/responsive/_layout-768.scss */
+  .content aside.sidebar {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 23, ../scss/responsive/_layout-768.scss */
+  .content .promo-boxes-1 .promo-box {
+    width: 48.93617%;
+    float: left;
+    margin-right: 2.12766%;
+    margin-bottom: 20px;
+  }
+  /* line 27, ../scss/responsive/_layout-768.scss */
+  .content .promo-boxes-1 .promo-box:nth-child(even) {
+    width: 48.93617%;
+    float: right;
+    margin-right: 0;
+  }
+
+  /* PROMO-BOX SIDE-BAR */
+  /* line 35, ../scss/responsive/_layout-768.scss */
+  .promo-boxes-2 .promo-box {
+    width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+    display: inline-block;
+  }
+  /* line 39, ../scss/responsive/_layout-768.scss */
+  .promo-boxes-2 .promo-box:last-child {
+    width: 23.40426%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 58, social/*.png */
+.social-sprite, .social-facebook, .social-twitter, .social-youtube {
+  background: url('../images/social-s342cc75911.png') no-repeat;
+}
+
+/* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-facebook {
+  background-position: 0 -32px;
+}
+
+/* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-twitter {
+  background-position: 0 -64px;
+}
+
+/* line 60, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-youtube {
+  background-position: 0 0;
+}
+
+/* Grids */
+/* $gutter-width */
+/* Main Colours */
+/* Fonts */
+/* -------------------------------------------------------------------------*/
+/* Layout-320 */
+@media (max-width: 767px) {
+  /* line 11, ../scss/responsive/_layout-320.scss */
+  header .logo {
+    width: 82.6087%;
+    float: left;
+    margin-right: 4.34783%;
+  }
+  /* line 14, ../scss/responsive/_layout-320.scss */
+  header .logo h1 a {
+    max-width: 320px;
+  }
+
+  /* line 20, ../scss/responsive/_layout-320.scss */
+  .content {
+    -webkit-background-origin: content;
+    -moz-background-origin: content;
+    -ms-background-origin: content-box;
+    -o-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-clip: content-box;
+  }
+  /* line 23, ../scss/responsive/_layout-320.scss */
+  .content article {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 24, ../scss/responsive/_layout-320.scss */
+  .content article.sidenav-page {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 31, ../scss/responsive/_layout-320.scss */
+  .content aside.sidebar {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+
+  /* PROMO-BOX HOMEPAGE */
+  /* line 37, ../scss/responsive/_layout-320.scss */
+  .promo-boxes-1 {
+    margin: 20px 0;
+  }
+  /* line 40, ../scss/responsive/_layout-320.scss */
+  .promo-boxes-1 .promo-box {
+    width: 47.82609%;
+    float: left;
+    margin-right: 4.34783%;
+  }
+  /* line 43, ../scss/responsive/_layout-320.scss */
+  .promo-boxes-1 .promo-box:nth-child(even) {
+    width: 47.82609%;
+    float: right;
+    margin-right: 0;
+  }
+
+  /* PROMO-BOX SIDE-BAR */
+  /* line 51, ../scss/responsive/_layout-320.scss */
+  .promo-boxes-2 .promo-box {
+    width: 47.82609%;
+    float: left;
+    margin-right: 4.34783%;
+    margin-bottom: 20px;
+  }
+  /* line 55, ../scss/responsive/_layout-320.scss */
+  .promo-boxes-2 .promo-box:nth-child(even) {
+    width: 47.82609%;
+    float: right;
+    margin-right: 0;
+  }
+
+  /* FOOTER */
+  /* line 62, ../scss/responsive/_layout-320.scss */
+  footer {
+    display: none;
+  }
+
+  /* line 66, ../scss/responsive/_layout-320.scss */
+  .copyright-m {
+    display: block;
+    clear: both;
+    font-size: 12px;
+    padding: 20px 0 10px 0;
+  }
+  /* line 72, ../scss/responsive/_layout-320.scss */
+  .copyright-m p {
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
